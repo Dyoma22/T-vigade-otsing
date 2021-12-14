@@ -81,7 +81,9 @@ def keskmine(loend):
 
 def lisamine(loend:list,el:float):
     """lisab ja sorteerib loendit
-    :rtype float
+    :rtype loend:numbrite loend
+    :rtype float el:
+    :rtype float sort:sorteerimine
     """
     loend.append(el)
     loend.sort()
