@@ -38,12 +38,22 @@ def vahetus(a:int,b:int):
     return a,b
 
 def generaator(n:int,loend:list,a:int,b:int):
+    """Genereerib juhusliku arvu
+    :parem int n:Numbri number
+    :parem list loend:
+    :parem int a:Minimaalne arv
+    :parem int b:Maksimaalne arv
+    """
     for i in range (n):
         loend.append(randint(a,b))
     
 
 def jagamine(loend:list,p:list,n:list,nol:list):
-    """
+    """leiab positiivsete, negatiivsete, nullide loendeid
+    :parem list loend:Nimekiri
+    :parem list p:Nimekiri
+    :parem list n:Nimekiri
+    :parem list nol:Nimekiri
     :rtype list
     """
     for el in loend:
@@ -55,7 +65,8 @@ def jagamine(loend:list,p:list,n:list,nol:list):
             nol.append(el)
 
 def keskmine(loend):
-    """
+    """leiab positiivse keskmise
+    :rtype int n:
     :rtype int
     """
     n=len(loend)
