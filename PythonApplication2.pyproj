@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1d947718-7917-426a-9054-16cca563b923</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication2.py</StartupFile>
+    <StartupFile>Vidage-otsing.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication2.py" />
+    <Compile Include="module1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Vidage-otsing.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
