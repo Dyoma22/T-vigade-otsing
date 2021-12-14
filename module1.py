@@ -80,7 +80,7 @@ def keskmine(loend):
     return kesk
 
 def lisamine(loend:list,el:float):
-    """
+    """lisab ja sorteerib loendit
     :rtype float
     """
     loend.append(el)
